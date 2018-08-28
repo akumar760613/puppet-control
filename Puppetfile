@@ -21,16 +21,16 @@ mod "garethr/docker",         '5.3.0'
 
 mod 'ssh',
   :git => 'https://github.com/arunimmadi/puppet-control.git',
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'ntp',
   :git => 'https://github.com/arunimmadi/puppet-control.git',
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'role',
   :git => 'https://github.com/arunimmadi/puppet-control.git', 
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'profile',
   :git => 'git@github.com:arunimmadi/puppet-control.git',
-  :ref => 'development'
+  :ref => 'production'

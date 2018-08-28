@@ -20,18 +20,17 @@ mod "garethr/docker",         '5.3.0'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'https://github.com/arunimmadi/puppet-ssh.git',
+  :git => 'https://github.com/arunimmadi/puppet-control.git',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'https://github.com/arunimmadi/puppet-ssh.git',
+  :git => 'https://github.com/arunimmadi/puppet-control.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/arunimmadi/puppet-role.git', 
+  :git => 'https://github.com/arunimmadi/puppet-control.git', 
   :ref => 'master'
 
 mod 'profile',
-  :git => 'git@github.com:arunimmadi/puppet-profile.git',
+  :git => 'git@github.com:arunimmadi/puppet-control.git',
   :ref => 'master'
- 

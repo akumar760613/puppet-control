@@ -21,10 +21,6 @@ mod 'ssh',
   :git => 'https://github.com/arunimmadi/puppet-ssh.git',
   :ref => 'master',
 
-mod 'ntp',
-  :git => 'https://github.com/arunimmadi/puppet-ntp.git',
-  :ref => 'master',
-
 mod 'role',
   :git => 'https://github.com/arunimmadi/puppet-role.git', 
   :ref => 'master',
